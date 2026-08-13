@@ -62,6 +62,12 @@
       "company": "Tech Mahindra Ltd",
       "period": "March 2021 - Present",
       "description": "I am a member of DevOps Production Support team. Responsible for daily maintenance/Deployment of the application servers including nightly/weekly bounce, Monitoring and configuration management."
+    },
+    {
+      "title": "DevOps Production Support Engineer",
+      "company": "Tech Mahindra Ltd",
+      "period": "March 2021 - Present",
+      "description": "I am a member of DevOps Production Support team. Responsible for daily maintenance/Deployment of the application servers including nightly/weekly bounce, Monitoring and configuration management."
     }
   ],
   "certifications": [
@@ -86,16 +92,62 @@
       "icon": "https://img.icons8.com/nolan/64/skyatlas.png"
     },
     {
-      "short_name": "DevOps Engineer Associate",
+      "short_name": "Agile and DevOps L1/L2",
+      "full_name": "Tech Mahindra",
+      "icon": "https://img.icons8.com/color/48/methodology.png"
+    },
+    {
+      "short_name": "AT&T AI Prelims L1/L2",
+      "full_name": "AT&T",
+      "icon": "https://img.icons8.com/3d-fluency/94/digital-ai.png"
+    },
+    {
+      "short_name": "Leadership L1/L2",
+      "full_name": "Tech Mahindra",
+      "icon": "https://img.icons8.com/3d-fluent/100/team-leadership-and-community-membership.png"
+    },
+    {
+      "short_name": "DevOps Engineer",
       "full_name": "TrainWithShubham",
       "icon": "https://storage.googleapis.com/credentials-uploads-prod/badges/9d45abe2-3c1c-4c10-b529-64f83db2b129/ea068dc3c330c20b.png"
     }
   ],
+  "projects":[
+    {
+      "short_name": "Sachin Thokal",
+      "full_name": "Portfolio",
+      "icon": "https://img.icons8.com/3d-fluency/94/user-male-circle.png",
+      "view": "https://portfolio.devopsvaultx.com/"
+    },
+    {
+      "short_name": "DevOps Tools",
+      "full_name": "DevOpsVaultX",
+      "icon": "https://img.icons8.com/3d-fluency/94/maintenance.png",
+      "view": "https://www.devopsvaultx.com/"
+    },
+    {
+      "short_name": "DevOps Documentation",
+      "full_name": "DevOpsVaultX",
+      "icon": "https://img.icons8.com/3d-fluency/94/signing-a-document.png",
+      "view": "https://docs.devopsvaultx.com/"
+    },
+    {
+      "short_name": "Sachin Thokal",
+      "full_name": "GitHub",
+      "icon": "https://img.icons8.com/3d-fluency/94/github.png",
+      "view": "https://github.com/sachinthokal"
+    }
+  ],
+
   "achievements": [
     { "image": "P1.webp" },
     { "image": "P2.webp" },
     { "image": "P3.webp" },
-    { "image": "P4.webp" }
+    { "image": "P4.webp" },
+    { "image": "P5.webp" },
+    { "image": "P6.webp" }
+    
+
   ],
   "contact": {
     "phone": "+91 8804171399",

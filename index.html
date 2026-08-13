@@ -250,6 +250,22 @@
             transform: translateY(-10px);
         }
 
+        .projects-card {
+            text-align: center;
+            padding: 30px;
+            background: var(--white);
+            border-radius: 15px;
+            margin-bottom: 25px;
+            transition: 0.4s;
+            border: 1px solid transparent;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+        }
+
+        .projects-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-10px);
+        }
+
         footer {
             background: #01040f;
             color: #8492a6;
@@ -276,7 +292,8 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#achievements">Achievements</a></li>
-                    <li><a href="#profiles">Certificates</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -394,7 +411,7 @@
             </div>
         </section>
 
-        <section id="profiles" style="background:var(--bg-light)">
+        <section id="certifications" style="background:var(--bg-light)">
             <div class="container">
                 <div class="section-heading" data-aos="fade-up">
                     <h2>Certifications</h2>
@@ -406,6 +423,26 @@
                             <img src="{{ cert.icon }}" width="60" height="60" alt="{{ cert.short_name }} logo">
                             <h3 style="font-weight:700; font-size: 16px;">{{ cert.short_name }}</h3>
                             <p style="color: var(--text-muted); font-size: 12px;">{{ cert.full_name }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" style="background:var(--bg-light)">
+            <div class="container">
+                <div class="section-heading" data-aos="fade-up">
+                    <h2>Projects</h2>
+                </div>
+                <div class="row">
+                    {% for project in data.projects %}
+                    <div class="col-sm-3" data-aos="flip-left" data-aos-delay="200">
+                        <div class="projects-card">
+                            <img src="{{ project.icon }}" width="60" height="60" alt="{{ project.short_name }} logo">
+                            <h3 style="font-weight:700; font-size: 16px;">{{ project.short_name }}</h3>
+                            <p style="color: var(--text-muted); font-size: 12px;">{{ project.full_name }}</p>
+                            <a href="{{project.view}}" target="_blank" style="text-decoration: none; text-transform: uppercase; font-weight: 800; font-size: small;">Preview</a>
                         </div>
                     </div>
                     {% endfor %}
