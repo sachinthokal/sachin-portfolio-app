@@ -2,9 +2,9 @@ name: Sachin Portfolio CICD
 
 on:
   push:
-    branches:
-      - main
-  workflow_dispatch: 
+    tags:
+      - 'v*'
+  workflow_dispatch:
 
 permissions:
   contents: read
