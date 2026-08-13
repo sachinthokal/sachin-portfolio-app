@@ -9,7 +9,6 @@ app = Flask(__name__,
 
 @app.route('/')
 def index():
-    # डेटा वाचून HTML ला पाठवण्यासाठी (Server-side rendering साठी)
     try:
         with open('data.json', 'r', encoding='utf-8') as f:
             info = json.load(f)
@@ -17,10 +16,9 @@ def index():
         info = {}
     return render_template('index.html', data=info)
 
-# हा नवीन रूट ॲड करा जो ब्राउझरला data.json फाईल देईल
 @app.route('/data.json')
 def serve_json():
     return send_from_directory(os.getcwd(), 'data.json')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)
