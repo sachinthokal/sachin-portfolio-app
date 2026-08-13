@@ -3,11 +3,11 @@
     "title": "Sachin Thokal | Portfolio",
     "username": "Sachin Thokal",
     "fullname": "Sachin Sudhakar Thokal",
-    "designation": "DevOps Production Support Engineer",
+    "designation": "DevOps Engineer",
     "company": "Tech Mahindra Ltd",
     "tagline": "A passionate DevOps Engineer focused on automation and continuous integration",
     "location": "Pune, Maharashtra",
-    "about": "Experienced Devops Production Engineer with 5+ years of expertise in infrastructure automation, kubernetes orchestration, and multitasking support systems. Passionate about optimizing workflows and driving team productivity. I’m passionate about bridging the gap between development and operations, ensuring faster and more reliable software delivery. I thrive in challenging environments where innovation, collaboration, and problem-solving are key to success.",
+    "about": "Experienced Devops Engineer with 5+ years of expertise in infrastructure automation, kubernetes orchestration, and multitasking support systems. Passionate about optimizing workflows and driving team productivity. I’m passionate about bridging the gap between development and operations, ensuring faster and more reliable software delivery. I thrive in challenging environments where innovation, collaboration, and problem-solving are key to success.",
     "profile_image": "profile_image.webp",
     "banner_image": "welcome-banner.webp",
     "resume": "Sachin_Thokal_8804171399.pdf"
@@ -36,38 +36,67 @@
     }
   ],
   "skills": [
-    { "name": "Linux", "percentage": "90" },
-    { "name": "Git, GitHub", "percentage": "90" },
-
-    { "name": "Docker", "percentage": "90" },
-    { "name": "GitHub Actions, CI/CD Pipeline", "percentage": "90" },
-
-    { "name": "Kubernetes", "percentage": "95" },
-    { "name": "Collaboration and Communication Skills", "percentage": "90" },
-    
-
-    { "name": "Terraform", "percentage": "80" },
-    { "name": "Incident Management and Troubleshooting", "percentage": "90" },
-    
-    { "name": "Ansible", "percentage": "80" },
-    { "name": "Prometheus, Grafana, OpenSearch, ELK Stack, Splunk", "percentage": "90" },
-
-    { "name": "Azure DevOps", "percentage": "90" },
-    { "name": "AWS", "percentage": "75" }
-    
+    {
+      "name": "Linux",
+      "percentage": "90"
+    },
+    {
+      "name": "Git, GitHub",
+      "percentage": "90"
+    },
+    {
+      "name": "Docker",
+      "percentage": "90"
+    },
+    {
+      "name": "GitHub Actions, CI/CD Pipeline",
+      "percentage": "90"
+    },
+    {
+      "name": "Kubernetes",
+      "percentage": "95"
+    },
+    {
+      "name": "Collaboration and Communication Skills",
+      "percentage": "90"
+    },
+    {
+      "name": "Terraform",
+      "percentage": "80"
+    },
+    {
+      "name": "Incident Management and Troubleshooting",
+      "percentage": "90"
+    },
+    {
+      "name": "Ansible",
+      "percentage": "80"
+    },
+    {
+      "name": "Prometheus, Grafana, OpenSearch, ELK Stack, Splunk",
+      "percentage": "90"
+    },
+    {
+      "name": "Azure DevOps",
+      "percentage": "90"
+    },
+    {
+      "name": "AWS",
+      "percentage": "75"
+    }
   ],
   "experience": [
     {
-      "title": "DevOps Production Support Engineer",
+      "title": "DevOps Engineer",
       "company": "Tech Mahindra Ltd",
-      "period": "March 2021 - Present",
-      "description": "I am a member of DevOps Production Support team. Responsible for daily maintenance/Deployment of the application servers including nightly/weekly bounce, Monitoring and configuration management."
+      "period": "AUG 2024 - Present",
+      "description": "Responsible for managing and streamlining CI/CD pipelines, containerized deployments, and infrastructure configuration. Hands-on experience in maintaining application server health, executing scheduled deployments and server bounces, and implementing robust monitoring solutions to ensure high uptime and performance."
     },
     {
       "title": "DevOps Production Support Engineer",
       "company": "Tech Mahindra Ltd",
-      "period": "March 2021 - Present",
-      "description": "I am a member of DevOps Production Support team. Responsible for daily maintenance/Deployment of the application servers including nightly/weekly bounce, Monitoring and configuration management."
+      "period": "MAR 2021 - Aug 2024",
+      "description": "Focused on 24/7 production environment stability, incident resolution, and continuous monitoring of application servers. Managed daily deployments, scheduled maintenance routines (nightly/weekly bounces), and proactively resolved deployment and infrastructure issues to minimize downtime."
     }
   ],
   "certifications": [
@@ -112,7 +141,7 @@
       "icon": "https://storage.googleapis.com/credentials-uploads-prod/badges/9d45abe2-3c1c-4c10-b529-64f83db2b129/ea068dc3c330c20b.png"
     }
   ],
-  "projects":[
+  "projects": [
     {
       "short_name": "Sachin Thokal",
       "full_name": "Portfolio",
@@ -138,16 +167,25 @@
       "view": "https://github.com/sachinthokal"
     }
   ],
-
   "achievements": [
-    { "image": "P1.webp" },
-    { "image": "P2.webp" },
-    { "image": "P3.webp" },
-    { "image": "P4.webp" },
-    { "image": "P5.webp" },
-    { "image": "P6.webp" }
-    
-
+    {
+      "image": "P1.webp"
+    },
+    {
+      "image": "P2.webp"
+    },
+    {
+      "image": "P3.webp"
+    },
+    {
+      "image": "P4.webp"
+    },
+    {
+      "image": "P5.webp"
+    },
+    {
+      "image": "P6.webp"
+    }
   ],
   "contact": {
     "phone": "+91 8804171399",
