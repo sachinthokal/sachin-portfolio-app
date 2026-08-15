@@ -2,7 +2,7 @@
 
 Hi there! Welcome to my personal portfolio repository. This project showcases my journey, technical expertise, and the professional experience I've gained over **5+ years** in the industry.
 
-🌐 **Live Portfolio:** [sachinthokal.github.io/Sachin_Portfolio_App/](https://sachinthokal.github.io/Sachin_Portfolio_App/)
+🌐 **Live Portfolio:** [sachinthokal.github.io/sachin-portfolio-app/](https://sachinthokal.github.io/sachin-portfolio-app/)
 
 ---
 
